@@ -3,7 +3,7 @@ using UnityEngine;
 public class ParameterManager : MonoBehaviour
 {
   // game parameters
-  public static float sensitivity = 3.0f;
+  public static float sensitivity = 5.0f; //3
   public static int limitedTime = 120;
   public static float maximumSpeed = 50.0f;
   public static float acceleration = 1.50f;
