@@ -95,8 +95,8 @@
     obniz.onconnect = async function () {
       motor_right = obniz.wired("DCMotor", { forward: 0, back: 4 });
       motor_left = obniz.wired("DCMotor", { forward: 6, back: 10 });
-      motor_right.power(85); // 25
-      motor_left.power(85);
+      motor_right.power(60); // 25
+      motor_left.power(60);
 
       obniz.display.clear();
       obniz.display.print("SlidingPenguin_Hindrance");
